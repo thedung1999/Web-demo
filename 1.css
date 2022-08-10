@@ -1,0 +1,355 @@
+/* 1 so the html mac dinh da co css , khi lam thi bo het di  */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.content{
+    width: 1004px;
+    /* dua the nay ra giua man hinh */
+    display: block;
+    margin: 0 auto;
+}
+.lon{
+    float: left;
+    width: 699px;
+}
+.nho{
+    width: 347px;
+    float: left;
+}
+.noidung{
+    display: inline-block;
+    width: 100%;
+}
+.anh{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+.benphai{
+    font-size: 15px;
+    display: block;
+    overflow: hidden;
+
+}
+.duoi{
+    background-color: rgb(119, 236, 119);
+}
+.menu{
+    width: 100%;
+    float: left;
+}
+
+/* menu  */
+.tab{
+    padding-top: 8px;
+}
+ul.tab{
+    display: inline-block;
+    width: 100%;
+}
+ul.tab li {
+    display: inline-block;
+    background-color: gray;
+    padding: 0 10px ;
+}
+ul.tab li:first-child{
+    background-color: green;
+}
+/* :last-child{
+    the cuoi cung
+}
+:nth-child(2){
+    chon the thu 2
+} */
+ul.tab li:hover {
+    color: yellow;
+    cursor: pointer;
+}
+
+
+.content-right{
+    width: 300px;
+    float: right;
+}
+.tttt li{
+    display: flex;
+    padding: 3px;
+}
+.tttt p{
+    padding-left: 5px;
+}
+.ttck li{
+    display: flex;
+    padding: 3px;
+}
+.ttck p{
+    padding-left: 5px;
+}
+.tabb{
+    padding: 5px;
+}
+ul.tabb{
+    display: inline-block;
+    width: 100%;
+}
+ul.tabb li {
+    display: inline-block;
+    background-color: gray;
+    padding: 0 2px ;
+}
+ul.tabb li:hover{
+    background-color: rgb(154, 152, 152);
+    cursor: pointer;
+}
+.drcpd {
+    margin-top: 3px;
+}
+.drcpd li{
+    display: flex;
+    padding: 3px;
+}
+#bor{
+    width: 14px;
+    margin: 3px;
+    border: 0.5px solid black;
+}
+
+.content-bottom{
+    width: 100%;
+    padding-top: 5px;
+}
+.left{
+    width: 390px;
+    padding: 7px;
+    float: left;
+}
+.left img{
+    width: 100%;
+}
+.left a{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.left a:hover{
+    color: rgb(45, 177, 45);
+}
+.right{
+    width: 300px;
+    float: right;
+    padding-top: 7px;
+}
+.right img{
+    float: left;
+}
+.right p{
+   padding-top: 8px;
+   padding-left: 5px;
+}
+.right ul{
+    overflow-y: scroll;
+    height: 400px;
+}
+.right li{
+    display: flex;
+    padding: 5px;
+}
+.content1{
+    width: 699px;
+}
+
+/* footer */
+.footer{
+    width: 100%;
+    background-color: rgb(210, 209, 209);
+    display: flex;
+    margin-top: 10px;
+}
+.footer div{
+    padding: 5px 0;
+    margin: auto;
+}
+
+.footer2{
+    width: 100%;
+    background-color: rgb(3, 154, 3);
+}
+.footer2 ul{
+    width: 400px;
+    color: white;
+    display: flex;
+    margin: auto;
+    font-size: 15px;
+}
+.footer2 li{
+    padding: 5px;
+}
+.footer2 a{
+    padding: 5px;
+}
+.footer2 a:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.footer3{
+    width: 100%;
+    background-color: rgb(210, 209, 209);
+}
+.footer3 div{
+    width: 1004px;
+    margin: auto;
+}
+.footer3 p{
+    color: rgb(149, 147, 147);
+    padding-top: 10px;
+    text-align: center;
+}
+.footer3 img{
+    display: block; 
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu1{
+    background-color: rgb(22, 181, 22);
+    width: 100%;
+}
+.menu1 div{
+    width: 1004px;
+    margin: 0 auto;
+}
+.menu1 ul{
+    display: inline-block;
+}
+.menu1 li{
+    display: inline-block;
+    text-align: center;
+    padding: 4px 0;
+    padding-left: 15px;
+}
+.menu1 p{
+    color: white;
+    font-size: 10px;
+}
+
+
+.menu1 ul {
+    background-color:  rgb(22, 181, 22);
+    margin: 0 auto;
+    /* text-align: center; */
+    /* display: block; */
+}
+.menu1 ul li {
+    display: inline-block;
+    color: #fff;
+    padding: 10px;
+    position: relative;
+}
+.menu1 ul.DM1 {
+    background-color:  rgb(22, 181, 22);
+    width: 150px;
+    display: none;
+}
+.menu1 ul.DM1 li {
+    border-bottom: black solid 1px;
+    width: 87%;
+}
+.menu1 ul.DM1 li:first-child{
+    background-color: green;
+}
+.menu1 ul li:hover ul.DM1 {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+.menu1 ul.DM2 {
+    background-color:  rgb(22, 181, 22);
+    width: 150px;
+    display: none;
+}
+.menu1 ul.DM2 li {
+    border-bottom: black solid 1px;
+    width: 87%;
+}
+.menu1 ul.DM2 li:first-child{
+    background-color: green;
+}
+.menu1 ul li:hover ul.DM2 {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+.ul.Danhmuc {
+    background-color:  rgb(22, 181, 22);
+    margin: 0 auto;
+}
+.Danhmuc ul li {
+    display: inline-block;
+    color: #fff;
+    padding: 10px;
+    position: relative;
+}
+.Danhmuc li ul{
+    background-color:  rgb(22, 181, 22);
+    width: 150px;
+    display: none;
+}
+.Danhmuc li:hover ul{
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+.Danhmuc li ul li{
+    border-bottom: black solid 1px;
+    width: 87%;
+}
+
+
+/* form */
+.form{
+    width: 700px;
+    margin: 0 auto;
+    border: rgb(22, 181, 22) 3px solid;
+}
+.form h2{
+    text-align: center;
+    color: white;
+    width: 100%;
+    background-color: rgb(22, 181, 22);
+    padding: 10px 0; 
+}
+.form1{
+    width: 100%;
+    margin-left: 50px;
+    padding: 10px;
+    display: flex;
+}
+.form1 p{
+    font-weight: bold;
+    width: 130px;
+    text-align: right;
+    /* background-color: blanchedalmond; */
+}
+.form1 input{
+    margin-left: 25px;
+    padding: 3px;
+    width: 270px;
+    border: 1px black solid;
+}
+.form2 {
+    margin-left: 215px;
+}
+.form2 input{
+    font-size: 17px; font-weight: bold;
+    color: white; background-color: rgb(22, 181, 22);padding: 8px;
+    border-radius: 10%;
+}
